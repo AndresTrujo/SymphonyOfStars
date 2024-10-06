@@ -88,5 +88,18 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 100px); /* Altura completa menos el espacio del menú */
+    text-align: center;
+    height: calc(100vh - 100px);
+    /* Altura completa menos el espacio del menú */
 }
+
+.video-container iframe{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: calc(100vh - 100px);
+    height: 720px;
+    border: none;
+    /* Altura completa menos el espacio del menú */
+}
+
