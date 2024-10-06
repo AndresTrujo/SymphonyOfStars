@@ -1,0 +1,70 @@
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    height: 100%;
+    background-image: url('https://cdn.esawebb.org/archives/images/screen/weic2303a.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Menú de navegación */
+.navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eef0f500; /* Fondo transparente */
+    padding: 10px 20px;
+    height: 100px; /* Ajusta la altura del menú */
+}
+
+/* Enlaces de navegación - Más separados y movidos más a la derecha */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 30px; /* Aumentamos la separación entre los enlaces */
+    font-size: 1.5em; /* Tamaño de fuente más grande */
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; /* Fuente robusta */
+}
+
+
+/* Imagen en el lado izquierdo (Apollo UCC) */
+.navbar img {
+    height: 100%; /* Ajusta la imagen para que ocupe todo el espacio del menú */
+    width: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Imagen en el lado derecho (Logo Space Apps) */
+.logo-right {
+    height: 100%; /* Ajusta la imagen para que ocupe todo el espacio del menú */
+    width: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Texto principal en el centro de la página */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh - 100px); /* Altura completa menos el espacio del menú */
+}
+
+.main-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.main-content p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
