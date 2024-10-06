@@ -68,3 +68,11 @@ body, html {
     font-size: 1.5em;
     margin-top: 20px;
 }
+
+/* Contenedor para videos centrados en la pantalla */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Altura completa menos el espacio del menú */
+}
